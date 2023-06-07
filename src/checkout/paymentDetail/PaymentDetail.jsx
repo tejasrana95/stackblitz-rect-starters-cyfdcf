@@ -1,6 +1,6 @@
 import React from 'react';
 export default function PaymentDetail(props) {
-  console.log('props.shippingEvents', props.shippingEvents)
+
   return (
     <>
       <div className="col-50">

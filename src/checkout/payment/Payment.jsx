@@ -10,9 +10,13 @@ export default function Payment() {
 
 function copyDataFromBilling(e){
   if(e.target.checked){
-    setShippingData(billingData);
+    console.log('billingData',billingData);
+    setShippingData(null);
+    setTimeout(() => {
+      setShippingData(billingData);
+    }, 1);
   }
-  console.log('billingData',billingData);
+  
 }
 
   function shippingAddress(e) {

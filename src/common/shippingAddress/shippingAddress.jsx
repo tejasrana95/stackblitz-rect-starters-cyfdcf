@@ -18,7 +18,7 @@ export default function ShippingAddress(props) {
   useEffect(() => {
     console.log('props.shippingData', props.shippingData);
     setCopiedData(props.shippingData)
-  },[props, props.shippingData])
+  },[props])
 
   
   
